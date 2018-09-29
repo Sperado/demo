@@ -1,0 +1,11 @@
+server:
+  port: 12703
+
+spring:
+  application:
+    name: demo-epay
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:12701/eureka/
